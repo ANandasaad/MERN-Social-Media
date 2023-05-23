@@ -1,0 +1,23 @@
+{
+  "name": "mern-social-media",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.7.1",
+    "bcryptjs": "^2.4.3",
+    "graphql": "^16.6.0",
+    "graphql-tag": "^2.12.6",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^5.5.0",
+    "mongoose": "^7.2.0"
+  }
+}
